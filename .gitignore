@@ -1,0 +1,27 @@
+# Entorno virtual de Python
+.venv/
+venv/
+
+# Archivos de compilación de Python
+__pycache__/
+*.py[cod]
+
+# Variables de entorno (no subir credenciales)
+.env
+.env.local
+
+# Dependencias de Node
+node_modules/
+
+# Salida de builds
+dist/
+build/
+
+# Base de datos local
+*.sqlite3
+*.db
+
+# Archivos del editor
+.vscode/
+.idea/
+*.swp
