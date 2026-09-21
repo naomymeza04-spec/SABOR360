@@ -2,6 +2,16 @@
 
 Sistema de gestión y control para restaurante mediante código QR.
 
+## Ejecutar todo de una vez
+
+Doble clic en `iniciar.bat` (o `.\iniciar.bat` en la terminal). Esto:
+1. Carga la base de datos (crea las tablas si no existen).
+2. Inicia el backend (API) en http://127.0.0.1:8000/docs
+3. Inicia el frontend en http://localhost:5173
+4. Abre el navegador con ambos servicios.
+
+Cierra las dos ventanas que se abren para detener los servidores.
+
 ## Estructura del proyecto
 
 ```
